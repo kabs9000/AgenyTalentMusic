@@ -181,7 +181,12 @@ h6 {
   flex: 0 0 100%;
   max-width: 100%;
 }
-
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+    max-width: 3.5rem!important;
+}
 hr.divider {
   max-width: 3.25rem;
   border-width: 0.2rem;
