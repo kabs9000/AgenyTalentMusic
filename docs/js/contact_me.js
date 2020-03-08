@@ -23,7 +23,7 @@ $(function() {
         url: "././mail/contact_me.php",
         type: "POST",
         data: {
-          name: name,
+          name: name, 
           phone: phone,
           email: email,
           message: message
